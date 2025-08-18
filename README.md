@@ -1,7 +1,7 @@
 # 🧠 Brain Tumor Detection and Classification
 
 A deep learning-based web application that detects and classifies brain tumors from MRI scans using a Convolutional Neural Network (CNN). The trained model is integrated into a Flask web app with a simple user interface.
----
+
 ## 📌 Key Features
 - Upload MRI images for brain tumor detection
 - CNN-based model trained on MRI datasets
@@ -9,9 +9,9 @@ A deep learning-based web application that detects and classifies brain tumors f
 - Display of prediction results with confidence
 - Responsive frontend for smooth usage
 - Preview of input MRI and detected output
----
+  
 ## 📁 Directory Structure
-'''bash
+'''
 .
 ├── models/ # Training notebooks and saved CNN model (model.h5)
 ├── templates/ # HTML frontend (index.html, result.html)
@@ -22,7 +22,6 @@ A deep learning-based web application that detects and classifies brain tumors f
 ├── homepage.jpg # Homepage screenshot
 ├── output.jpg # Sample output screenshot
 └── README.md # Project documentation
----
 '''
 ## 🔧 Installation
 ### 1. Clone the Repository
@@ -43,6 +42,7 @@ bash
 Copy
 Edit
 python main.py
+'''
 4. Open in Browser
 http://127.0.0.1:5000/
 📊 Visual Outputs
