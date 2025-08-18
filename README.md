@@ -11,6 +11,7 @@ A deep learning-based web application that detects and classifies brain tumors f
 - Preview of input MRI and detected output
 ---
 ## 📁 Directory Structure
+'''bash
 .
 ├── models/ # Training notebooks and saved CNN model (model.h5)
 ├── templates/ # HTML frontend (index.html, result.html)
@@ -22,6 +23,7 @@ A deep learning-based web application that detects and classifies brain tumors f
 ├── output.jpg # Sample output screenshot
 └── README.md # Project documentation
 ---
+'''
 ## 🔧 Installation
 ### 1. Clone the Repository
 ```bash
