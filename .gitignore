@@ -1,0 +1,22 @@
+# Ignore model files
+models/*.h5
+models/*.pkl
+models/*.pth
+models/*.pt
+
+# Ignore datasets
+data/
+*.csv
+*.npz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Logs
+logs/"model.h5" 
