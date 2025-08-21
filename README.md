@@ -46,20 +46,13 @@ cd brain-tumor-detection-and-classification
 ### 2. Install Dependencies
 ```bash
 2. Create Virtual Environment & Install Dependencies
-bash
-Copy
-Edit
 python -m venv venv
 venv\Scripts\activate       # Windows
 source venv/bin/activate    # Mac/Linux
 
 pip install -r requirements.txt
 3. Run the Application
-bash
-Copy
-Edit
 python main.py
-'''
 4. Open in Browser
 http://127.0.0.1:5000/
 ```
